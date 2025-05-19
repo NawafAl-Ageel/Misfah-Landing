@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>مصفاة - تصفية محتوى X بذكاء اصطناعي</title>
+    <meta name="description" content="امتداد مصفاة يستخدم الذكاء الاصطناعي لتصفية المحتوى الحساس تلقائيًا وتحسين تجربتك على منصة X">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="images/x_filter_logo.png">
+    <!-- إضافة خطوط Google -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Cairo:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <!-- إضافة مكتبة Font Awesome للأيقونات -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <!-- تأثيرات الخلفية -->
+    <div class="bg-particles">
+        <div class="glow" style="top: 20%; left: 10%;"></div>
+        <div class="glow" style="top: 60%; left: 80%;"></div>
+        <div class="glow" style="top: 80%; left: 30%;"></div>
+    </div>
+
+    <!-- رأس الصفحة -->
+    <header>
+        <div class="container">
+            <nav class="navbar">
+                <div class="logo">
+                    <img src="x_filter_logo.png" alt="شعار مصفاة">
+                    <span class="logo-text">مصفاة</span>
+                </div>
+                <ul class="nav-links">
+                    <li><a href="#features">المميزات</a></li>
+                    <li><a href="#ai-power">قوة الذكاء الاصطناعي</a></li>
+                    <li><a href="#how-to-use">كيفية الاستخدام</a></li>
+                    <li><a href="#faq">الأسئلة الشائعة</a></li>
+                    <li><a href="#download" class="btn">تنزيل الآن</a></li>
+                </ul>
+                <button class="mobile-menu-btn">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </nav>
+        </div>
+    </header>
+
+    <!-- قسم البطل (Hero) -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content text-center">
+                <span class="ai-badge">مدعوم بالذكاء الاصطناعي</span>
+                <h1>تصفية محتوى X بذكاء</h1>
+                <p>امتداد مصفاة يستخدم نماذج اللغة الكبيرة (LLM) لقراءة المحتوى وتصفيته تلقائيًا، مما يخفي المحتوى الحساس ويحسن تجربتك على منصة X</p>
+                <div class="hero-buttons">
+                    <a href="#download" class="btn">تنزيل الآن</a>
+                    <a href="#ai-power" class="btn btn-secondary">اكتشف قوة الذكاء الاصطناعي</a>
+                </div>
+                <img src="x_filter_logo.png" alt="X Filter" class="hero-image" width="300">
+            </div>
+        </div>
+    </section>
+
+    <!-- قسم المميزات -->
+    <section class="features" id="features">
+        <div class="container">
+            <div class="section-title">
+                <h2>مميزات مصفاة</h2>
+                <p>اكتشف كيف يمكن لامتداد مصفاة المدعوم بالذكاء الاصطناعي تحسين تجربتك على المنصة</p>
+            </div>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-brain"></i>
+                    </div>
+                    <h3>تصفية ذكية</h3>
+                    <p>يستخدم نماذج اللغة الكبيرة (LLM) لفهم سياق المحتوى وتصفيته بذكاء بناءً على المعنى وليس فقط الكلمات المفتاحية</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <h3>حماية تلقائية</h3>
+                    <p>يكتشف ويخفي المحتوى الحساس تلقائيًا دون الحاجة إلى إعداد قواعد معقدة، مما يوفر تجربة تصفح أكثر أمانًا</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-sliders-h"></i>
+                    </div>
+                    <h3>تخصيص متقدم</h3>
+                    <p>ضبط مستويات التصفية حسب تفضيلاتك الشخصية، مع إمكانية تعليم الذكاء الاصطناعي ما تفضله وما لا تفضله</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-tachometer-alt"></i>
+                    </div>
+                    <h3>أداء محسّن</h3>
+                    <p>تصميم خفيف الوزن يعمل في الخلفية دون التأثير على سرعة التصفح، مع معالجة المحتوى في الوقت الفعلي</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <h3>تحليلات المحتوى</h3>
+                    <p>لوحة تحكم تعرض إحصائيات حول المحتوى الذي تمت تصفيته، مما يساعدك على فهم ما يتم حجبه وتحسين تجربتك</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-sync-alt"></i>
+                    </div>
+                    <h3>تحسين مستمر</h3>
+                    <p>يتعلم من تفاعلاتك ويتحسن بمرور الوقت، مما يجعل التصفية أكثر دقة وفعالية مع استمرار استخدامك للامتداد</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- قسم قوة الذكاء الاصطناعي -->
+    <section class="ai-section" id="ai-power">
+        <div class="container">
+            <div class="section-title">
+                <h2>قوة الذكاء الاصطناعي</h2>
+                <p>اكتشف كيف يستخدم مصفاة نماذج اللغة الكبيرة (LLM) لتصفية المحتوى بذكاء</p>
+            </div>
+            <div class="ai-content">
+                <div class="ai-image">
+                    <img src="x_filter_logo.png" alt="تقنية الذكاء الاصطناعي">
+                </div>
+                <div class="ai-text">
+                    <h3>كيف تعمل مصفاة بالذكاء الاصطناعي</h3>
+                    <p>يستخدم امتداد مصفاة أحدث تقنيات الذكاء الاصطناعي ونماذج اللغة الكبيرة (LLM) لتصفية المحتوى بطريقة ذكية وفعالة.</p>
+                    
+                    <div class="ai-steps">
+                        <div class="ai-step">
+                            <div class="ai-step-number">1</div>
+                            <div class="ai-step-content">
+                                <h4>قراءة وفهم المحتوى</h4>
+                                <p>تقوم مصفاة بقراءة المحتوى وفهم سياقه ومعناه الحقيقي، متجاوزة حدود الكلمات المفردة للوصول إلى فهم عميق للنص.</p>
+                            </div>
+                        </div>
+                        <div class="ai-step">
+                            <div class="ai-step-number">2</div>
+                            <div class="ai-step-content">
+                                <h4>تحليل المشاعر والنوايا</h4>
+                                <p>تحلل مصفاة المشاعر والنوايا وراء المحتوى بدقة عالية لتحديد طبيعته وما إذا كان يحتوي على محتوى غير مرغوب فيه.</p>
+                            </div>
+                        </div>
+                        <div class="ai-step">
+                            <div class="ai-step-number">3</div>
+                            <div class="ai-step-content">
+                                <h4>تصنيف المحتوى بدقة</h4>
+                                <p>تصنف مصفاة المحتوى إلى فئات محددة (سياسي، عنيف، مزعج، إلخ) استناداً إلى تحليل عميق للمعنى والسياق.</p>
+                            </div>
+                        </div>
+                        <div class="ai-step">
+                            <div class="ai-step-number">4</div>
+                            <div class="ai-step-content">
+                                <h4>اتخاذ قرار ذكي</h4>
+                                <p>تتخذ مصفاة قراراً ذكياً بشأن إخفاء المحتوى أو عرضه بناءً على تفضيلاتك الشخصية وإعدادات التصفية التي حددتها.</p>
+                            </div>
+                        </div>
+                        <div class="ai-step">
+                            <div class="ai-step-number">5</div>
+                            <div class="ai-step-content">
+                                <h4>التعلم المستمر</h4>
+                                <p>تتعلم مصفاة من تفاعلاتك وملاحظاتك لتحسين دقة التصفية باستمرار، مما يجعلها أكثر فعالية مع كل استخدام.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- قسم كيفية الاستخدام -->
+    <section class="how-to-use" id="how-to-use">
+        <div class="container">
+            <div class="section-title">
+                <h2>كيفية استخدام X Filter</h2>
+                <p>اتبع هذه الخطوات البسيطة للبدء في تصفية محتوى X بذكاء</p>
+            </div>
+            <div class="steps">
+                <div class="step">
+                    <div class="step-number">1</div>
+                    <div class="step-content">
+                        <h3>تنزيل الامتداد</h3>
+                        <p>قم بتنزيل امتداد X Filter من متجر المتصفح الخاص بك (كروم، فايرفوكس، إيدج) بنقرة واحدة.</p>
+                    </div>
+                </div>
+                <div class="step">
+                    <div class="step-number">2</div>
+                    <div class="step-content">
+                        <h3>تثبيت وتفعيل</h3>
+                        <p>انقر على زر "تثبيت" واتبع التعليمات البسيطة لإكمال عملية التثبيت. سيتم تفعيل الامتداد تلقائيًا.</p>
+                    </div>
+                </div>
+                <div class="step">
+                    <div class="step-number">3</div>
+                    <div class="step-content">
+                        <h3>تخصيص الإعدادات (اختياري)</h3>
+                        <p>انقر على أيقونة الامتداد في شريط المتصفح وقم بتخصيص إعدادات التصفية حسب تفضيلاتك، أو اترك الإعدادات الافتراضية الذكية تعمل نيابة عنك.</p>
+                    </div>
+                </div>
+                <div class="step">
+                    <div class="step-number">4</div>
+                    <div class="step-content">
+                        <h3>استمتع بتجربة X المحسنة</h3>
+                        <p>قم بزيارة X واستمتع بتجربة تصفح أفضل مع محتوى مصفى تلقائيًا بواسطة الذكاء الاصطناعي.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- قسم الأسئلة الشائعة -->
+    <section class="faq" id="faq">
+        <div class="container">
+            <div class="section-title">
+                <h2>الأسئلة الشائعة</h2>
+                <p>إجابات على الأسئلة الأكثر شيوعًا حول امتداد مصفاة</p>
+            </div>
+            <div class="faq-list">
+                <div class="faq-item">
+                    <div class="faq-question">كيف يعمل الذكاء الاصطناعي في مصفاة؟</div>
+                    <div class="faq-answer">
+                        <p>تستخدم مصفاة نماذج اللغة الكبيرة (LLM) المتطورة لقراءة وفهم محتوى X بعمق. يحلل النظام السياق والمعنى والنية وراء المنشورات، وليس فقط الكلمات المفردة، مما يتيح تصفية أكثر دقة وذكاءً من الطرق التقليدية. تتعلم مصفاة من تفاعلاتك لتحسين دقة التصفية مع مرور الوقت.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">هل يحتاج الامتداد إلى اتصال بالإنترنت للعمل؟</div>
+                    <div class="faq-answer">
+                        <p>نعم، تحتاج مصفاة إلى اتصال بالإنترنت لتشغيل نماذج الذكاء الاصطناعي المتقدمة. تتم معالجة المحتوى على خوادم آمنة ومخصصة، مما يضمن سرعة وكفاءة عالية دون التأثير على تجربة التصفح. يمكن للامتداد تخزين بعض الإعدادات محلياً للعمل بشكل جزئي عند انقطاع الاتصال.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">هل بياناتي آمنة عند استخدام مصفاة؟</div>
+                    <div class="faq-answer">
+                        <p>نعم، الخصوصية والأمان من أولوياتنا القصوى. تتم معالجة جميع البيانات بشكل آمن ومشفر، ولا يتم تخزين محتوى المنشورات بعد معالجتها. نستخدم فقط البيانات اللازمة لتحسين أداء الذكاء الاصطناعي دون ربطها بهويتك الشخصية. يمكنك الاطلاع على سياسة الخصوصية الكاملة من خلال إعدادات الامتداد.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">هل يمكنني تخصيص نوع المحتوى الذي يتم تصفيته؟</div>
+                    <div class="faq-answer">
+                        <p>بالتأكيد! توفر مصفاة لوحة تحكم متقدمة وسهلة الاستخدام تتيح لك تخصيص فئات المحتوى التي ترغب في تصفيتها (سياسي، عنيف، مزعج، إلخ)، وضبط مستويات الحساسية لكل فئة، وإنشاء قوائم مخصصة للكلمات والموضوعات. يمكنك أيضاً تعليم الذكاء الاصطناعي تفضيلاتك الشخصية من خلال التغذية الراجعة على المحتوى المصفى.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">هل تعمل مصفاة على الأجهزة المحمولة؟</div>
+                    <div class="faq-answer">
+                        <p>حالياً، تعمل مصفاة على متصفحات سطح المكتب فقط (كروم، فايرفوكس، إيدج). نحن نعمل على تطوير إصدار للأجهزة المحمولة سيكون متاحاً في الربع الثالث من عام 2025. يمكنك التسجيل في قائمة الانتظار للحصول على إشعار فور إطلاق النسخة المحمولة.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">هل تؤثر مصفاة على سرعة تحميل X؟</div>
+                    <div class="faq-answer">
+                        <p>تم تصميم مصفاة لتكون خفيفة الوزن وفعالة. على الرغم من استخدامها لتقنيات الذكاء الاصطناعي المتقدمة، فإنها تعمل بكفاءة في الخلفية مع تأثير ضئيل على سرعة التصفح. اختباراتنا تظهر أن التأثير على الأداء أقل من 5% في معظم الحالات، وهو غير ملحوظ للمستخدم العادي. كما يمكنك ضبط إعدادات الأداء من لوحة التحكم لتحقيق التوازن المثالي بين دقة التصفية وسرعة التصفح.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- قسم التنزيل -->
+    <section class="download" id="download">
+        <div class="container">
+            <div class="section-title">
+                <h2>تنزيل مصفاة الآن</h2>
+                <p>اختر متصفحك المفضل وابدأ في تصفية محتوى X بذكاء اليوم</p>
+            </div>
+            <div class="browsers">
+                <div class="browser-option">
+                    <div class="browser-icon">
+                        <i class="fab fa-chrome"></i>
+                    </div>
+                    <h3>جوجل كروم</h3>
+                    <p>متوافق مع كروم 88+</p>
+                    <a href="#" class="btn">تنزيل للكروم</a>
+                </div>
+                <div class="browser-option">
+                    <div class="browser-icon">
+                        <i class="fab fa-firefox"></i>
+                    </div>
+                    <h3>فايرفوكس</h3>
+                    <p>متوافق مع فايرفوكس 86+</p>
+                    <a href="#" class="btn">تنزيل للفايرفوكس</a>
+                </div>
+                <div class="browser-option">
+                    <div class="browser-icon">
+                        <i class="fab fa-edge"></i>
+                    </div>
+                    <h3>مايكروسوفت إيدج</h3>
+                    <p>متوافق مع إيدج 88+</p>
+                    <a href="#" class="btn">تنزيل للإيدج</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- تذييل الصفحة -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-column">
+                    <h3>مصفاة</h3>
+                    <p>امتداد مدعوم بالذكاء الاصطناعي يساعدك على تصفية محتوى X وتحسين تجربة التصفح الخاصة بك.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-github"></i></a>
+         
+(Content truncated due to size limit. Use line ranges to read in chunks)
